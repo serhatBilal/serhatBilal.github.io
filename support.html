@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Support page for Serhat Bilal Studio mobile apps and games." />
+    <title>Support | Serhat Bilal Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="support">
+    <header class="site-header">
+      <a class="brand" href="index.html" data-page-link="home" aria-label="Serhat Bilal Studio home">
+        <span class="brand-mark">SB</span>
+        <span>Serhat Bilal Studio</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html" data-page-link="home" data-i18n="navHome">Home</a>
+        <a href="apps.html" data-page-link="apps" data-i18n="navApps">Apps</a>
+        <a href="privacy.html?app=the-flipside-run" data-page-link="privacy" data-i18n="navPrivacy">Privacy</a>
+      </nav>
+      <div class="language-switch" aria-label="Language switcher">
+        <a href="?lang=en" data-lang-option="en">EN</a>
+        <a href="?lang=tr" data-lang-option="tr">TR</a>
+      </div>
+    </header>
+
+    <main class="policy-shell">
+      <section class="policy-hero">
+        <p class="eyebrow" data-i18n="supportEyebrow">Support</p>
+        <h1 id="supportTitle">Support</h1>
+        <p id="supportIntro"></p>
+      </section>
+
+      <section class="support-grid">
+        <article>
+          <h2 data-i18n="supportEmailTitle">Email Support</h2>
+          <p data-i18n="supportEmailText">
+            Include the app name, device model, operating system version and a short description of the issue.
+          </p>
+          <a class="button primary" id="supportEmail" href="#" data-i18n="supportEmailButton">Send support email</a>
+        </article>
+        <article>
+          <h2 data-i18n="supportTopicsTitle">Common Topics</h2>
+          <ul class="clean-list" id="supportTopics"></ul>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Serhat Bilal Studio</span>
+      <div>
+        <a href="apps.html" data-page-link="apps" data-i18n="navApps">Apps</a>
+        <a href="privacy.html?app=the-flipside-run" data-page-link="privacy" data-i18n="navPrivacy">Privacy</a>
+      </div>
+    </footer>
+
+    <script src="assets/app-data.js"></script>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
