@@ -1,189 +1,143 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Serhat Bilal Studio builds mobile games, apps, support pages, and privacy policy pages for iOS and Android releases."
-    />
-    <meta property="og:title" content="Serhat Bilal Studio" />
-    <meta
-      property="og:description"
-      content="Independent mobile games and apps by Serhat Bilal."
-    />
-    <meta property="og:type" content="website" />
-    <title>Serhat Bilal Studio | Mobile Games & Apps</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body data-page="home">
-    <header class="site-header">
-      <a class="brand" href="index.html" data-page-link="home" aria-label="Serhat Bilal Studio home">
-        <span class="brand-mark">SB</span>
-        <span>Serhat Bilal Studio</span>
-      </a>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="index.html" data-page-link="home" data-i18n="navHome">Home</a>
-        <a href="apps.html" data-page-link="apps" data-i18n="navApps">Apps</a>
-        <a href="#creator" data-i18n="navCreator">Creator</a>
-        <a href="https://github.com/serhatBilal" target="_blank" rel="noopener">GitHub</a>
-      </nav>
-      <div class="language-switch" aria-label="Language switcher">
-        <a href="?lang=en" data-lang-option="en">EN</a>
-        <a href="?lang=tr" data-lang-option="tr">TR</a>
-      </div>
-    </header>
+<html lang="en" class="no-js" data-title-en="Serhat Bilal Studio — Indie Mobile Games" data-title-tr="Serhat Bilal Studio — Bağımsız Mobil Oyunlar">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Serhat Bilal Studio — Indie Mobile Games</title>
+<meta name="description" content="Independent mobile games by Serhat Bilal: The Flipside, Merge Survivors: Dark Dungeon and Tiny Mage. Privacy policies, terms and support for every game.">
+<meta name="theme-color" content="#07070d">
+<link rel="canonical" href="https://serhatbilal.github.io/">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Serhat Bilal Studio">
+<meta property="og:title" content="Serhat Bilal Studio — Indie Mobile Games">
+<meta property="og:description" content="Independent mobile games by Serhat Bilal: The Flipside, Merge Survivors: Dark Dungeon and Tiny Mage. Privacy policies, terms and support for every game.">
+<meta property="og:url" content="https://serhatbilal.github.io/">
+<meta property="og:image" content="https://serhatbilal.github.io/assets/img/og-default.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+<script>(function(){try{var q=new URLSearchParams(location.search).get('lang');var s=localStorage.getItem('sbs-lang');var l=q||s||((navigator.language||'').toLowerCase().indexOf('tr')===0?'tr':'en');document.documentElement.lang=(l==='tr'?'tr':'en')}catch(e){}})()</script>
 
-    <main>
-      <section class="hero developer-hero">
-        <div class="hero-copy">
-          <p class="eyebrow" data-i18n="homeEyebrow">Independent mobile developer</p>
-          <h1 data-i18n-html="homeTitle">Mobile games and useful apps, built with care.</h1>
-          <p class="hero-text" data-i18n="homeText">
-            I build focused iOS and Android experiences, from quick arcade games
-            to practical mobile apps, with clean support and policy pages for
-            every release.
-          </p>
-          <div class="hero-actions" aria-label="Primary actions">
-            <a class="button primary" href="apps.html" data-page-link="apps" data-i18n="homePrimary">
-              View Apps
-            </a>
-            <a class="button soft" href="https://github.com/serhatBilal" target="_blank" rel="noopener">
-              GitHub
-            </a>
-          </div>
-        </div>
-
-        <div class="developer-visual" aria-label="Developer studio visual">
-          <div class="visual-toolbar">
-            <span>serhatBilal.dev</span>
-            <strong data-i18n="visualStatus">Building</strong>
-          </div>
-          <div class="code-window" aria-hidden="true">
-            <span>const studio = "Serhat Bilal";</span>
-            <span>ship("mobile games");</span>
-            <span>support("every app");</span>
-          </div>
-          <div class="mobile-preview" aria-hidden="true">
-            <span class="preview-notch"></span>
-            <div class="preview-scene">
-              <span class="preview-runner"></span>
-              <span class="preview-line line-one"></span>
-              <span class="preview-line line-two"></span>
-              <span class="preview-line line-three"></span>
-            </div>
-            <strong>The Flipside Run</strong>
-            <span>iOS release</span>
-          </div>
-          <div class="avatar-card">
-            <img src="https://github.com/serhatBilal.png" alt="Serhat Bilal" />
-            <div>
-              <span data-i18n="avatarRole">Software Developer</span>
-              <strong>Serhat Bilal</strong>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section craft-section">
-        <div class="section-heading">
-          <p class="eyebrow" data-i18n="craftEyebrow">What I build</p>
-          <h2 data-i18n="craftTitle">Small products with a complete release mindset.</h2>
-          <p data-i18n="craftText">
-            A good app is not only the binary uploaded to a store. It also needs a clear
-            home, a real support path, and policy pages users can trust.
-          </p>
-        </div>
-        <div class="feature-grid">
-          <article>
-            <span class="feature-label">01</span>
-            <h3 data-i18n="craftCardOneTitle">Mobile Games</h3>
-            <p data-i18n="craftCardOneText">Fast, replayable, touch-friendly game ideas for mobile players.</p>
-          </article>
-          <article>
-            <span class="feature-label">02</span>
-            <h3 data-i18n="craftCardTwoTitle">Useful Apps</h3>
-            <p data-i18n="craftCardTwoText">Lean mobile tools with direct flows and simple maintenance.</p>
-          </article>
-          <article>
-            <span class="feature-label">03</span>
-            <h3 data-i18n="craftCardThreeTitle">Release Pages</h3>
-            <p data-i18n="craftCardThreeText">Each app gets its own support and privacy policy links.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section featured-section">
-        <div class="featured-copy">
-          <p class="eyebrow" data-i18n="featuredEyebrow">Featured app</p>
-          <h2>The Flipside Run</h2>
-          <p data-i18n="featuredText">
-            A quick mobile game release focused on reflex, timing, and smooth arcade flow.
-          </p>
-          <div class="hero-actions">
-            <a class="button light" href="https://apps.apple.com/us/app/the-flipside-run/id6764400397" target="_blank" rel="noopener">
-              App Store
-            </a>
-            <a class="button outline-light" href="apps.html" data-page-link="apps" data-i18n="featuredAppsButton">
-              App Details
-            </a>
-          </div>
-        </div>
-        <div class="featured-facts">
-          <div>
-            <span data-i18n="factPlatform">Platform</span>
-            <strong>iOS</strong>
-          </div>
-          <div>
-            <span data-i18n="factCategory">Category</span>
-            <strong data-i18n="factGame">Mobile Game</strong>
-          </div>
-          <div>
-            <span data-i18n="factPages">Pages</span>
-            <strong data-i18n="factReady">Support + Privacy</strong>
-          </div>
-        </div>
-      </section>
-
-      <section class="section creator-section" id="creator">
-        <div class="creator-media">
-          <img src="https://github.com/serhatBilal.png" alt="Serhat Bilal" />
-        </div>
-        <div class="creator-copy">
-          <p class="eyebrow" data-i18n="creatorEyebrow">Creator</p>
-          <h2>Serhat Bilal</h2>
-          <p data-i18n="creatorText">
-            Software developer based in Bursa, building across back-end, mobile,
-            Flutter, .NET and Python. This site is the public home for current
-            and upcoming mobile releases.
-          </p>
-          <div class="creator-links">
-            <a class="button primary" href="https://github.com/serhatBilal" target="_blank" rel="noopener">
-              GitHub
-            </a>
-            <a class="button soft" href="apps.html" data-page-link="apps" data-i18n="creatorAppsButton">
-              Explore Apps
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <span>© <span id="year"></span> Serhat Bilal Studio</span>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="container nav-in">
+    <a class="brand" href="/" aria-label="Serhat Bilal Studio"><span class="brand-mark">SB</span><span>Serhat Bilal <span style="color:var(--muted);font-weight:600">Studio</span></span></a>
+    <nav class="nav-links" id="navlinks" aria-label="Main">
+      <a href="/#games"><span data-l="en">Games</span><span data-l="tr">Oyunlar</span></a>
+      <a href="/legal/"><span data-l="en">Legal &amp; Support</span><span data-l="tr">Yasal ve Destek</span></a>
+      <a href="/#about"><span data-l="en">About</span><span data-l="tr">Hakkında</span></a>
+      <a href="mailto:serhat.bilal92@gmail.com"><span data-l="en">Contact</span><span data-l="tr">İletişim</span></a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language"><button data-set="en" type="button">EN</button><button data-set="tr" type="button">TR</button></div>
+    <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="navlinks"><span></span></button>
+  </div>
+</header>
+<main id="main">
+<section class="hero"><div class="container hero-grid">
+  <div>
+    <span class="eyebrow"><span data-l="en">Indie game studio · Bursa</span><span data-l="tr">Bağımsız oyun stüdyosu · Bursa</span></span>
+    <h1><span data-l="en">Mobile games<br>forged in the <span class="grad">dark.</span></span><span data-l="tr">Karanlıkta<br><span class="grad">dövülen</span> mobil oyunlar.</span></h1>
+    <p class="lead"><span data-l="en">Three games, one small studio: a neon-soaked endless runner, a dark-fantasy survivors-like and a tiny wizard with a very big wand.</span><span data-l="tr">Üç oyun, tek küçük stüdyo: neon bir sonsuz koşu, karanlık fantezi bir survivors oyunu ve kocaman asası olan minicik bir büyücü.</span></p>
+    <div class="hero-cta">
+      <a class="btn primary" href="#games"><span data-l="en">Explore games</span><span data-l="tr">Oyunları keşfet</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a class="btn ghost" href="/legal/"><span data-l="en">Privacy, terms &amp; support</span><span data-l="tr">Gizlilik, şartlar ve destek</span></a>
+    </div>
+    <div class="hero-stats">
+      <div><strong>3</strong><span><span data-l="en">games</span><span data-l="tr">oyun</span></span></div>
+      <div><strong>EN · TR</strong><span><span data-l="en">languages</span><span data-l="tr">dil</span></span></div>
+      <div><strong>Godot</strong><span><span data-l="en">engine</span><span data-l="tr">motor</span></span></div>
+    </div>
+  </div>
+  <div class="stack" aria-label="Game icons"><a class="s1" href="/games/the-flipside/" aria-label="The Flipside"><img src="/assets/img/the-flipside/icon.webp" alt="The Flipside icon" width="768" height="768"><span class="tag">The Flipside</span></a><a class="s2" href="/games/merge-survivors/" aria-label="Merge Survivors: Dark Dungeon"><img src="/assets/img/merge-survivors/icon.webp" alt="Merge Survivors: Dark Dungeon icon" width="768" height="768"><span class="tag">Merge Survivors</span></a><a class="s3" href="/games/tiny-mage/" aria-label="Tiny Mage: Endless Run"><img src="/assets/img/tiny-mage/icon.webp" alt="Tiny Mage: Endless Run icon" width="768" height="768"><span class="tag">Tiny Mage</span></a></div>
+</div></section>
+<section class="section" id="games"><div class="container">
+  <div class="section-head rv"><span class="eyebrow"><span data-l="en">The games</span><span data-l="tr">Oyunlar</span></span><h2><span data-l="en">Pick your descent.</span><span data-l="tr">Yolculuğunu seç.</span></h2><p><span data-l="en">Each game has its own page, privacy policy, terms of use and support — with a dedicated link for every one.</span><span data-l="tr">Her oyunun kendi sayfası, gizlilik politikası, kullanım şartları ve destek sayfası var — hepsi için ayrı bir link.</span></p></div>
+<article class="panel rv" style="--a1:#ff3b4e;--a2:#3b82f6" id="the-flipside">
+  <div class="panel-copy">
+    <span class="badge"><i></i><span data-l="en">Available now</span><span data-l="tr">Yayında</span></span>
+    <h3>The Flipside</h3>
+    <p class="tagline"><span data-l="en">Flip between two worlds. Outrun the dark.</span><span data-l="tr">İki dünya arasında çevril. Karanlığı geride bırak.</span></p>
+    <p class="summary"><span data-l="en">A fast, moody endless runner on a cracked road between two dimensions. Dodge obstacles, spend mana to flip the world, chain your abilities and climb a worldwide leaderboard.</span><span data-l="tr">İki boyut arasındaki çatlak yolda hızlı ve atmosferik bir sonsuz koşu. Engellerden kaç, dünyayı çevirmek için mana harca, yeteneklerini zincirle ve dünya çapındaki liderlik tablosuna tırman.</span></p>
+    <div class="chips"><span class="chip"><span data-l="en">Endless runner</span><span data-l="tr">Sonsuz koşu</span></span><span class="chip"><span data-l="en">Arcade</span><span data-l="tr">Arcade</span></span><span class="chip"><span data-l="en">Leaderboard</span><span data-l="tr">Liderlik tablosu</span></span><span class="chip"><span data-l="en">EN · TR</span><span data-l="tr">EN · TR</span></span></div>
+    <div class="actions"><a class="btn primary" href="https://apps.apple.com/us/app/the-flipside-run/id6764400397" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.15-2.8.85-3.5.85-.73 0-1.85-.83-3.05-.8-1.57.02-3.02.92-3.83 2.32-1.63 2.83-.42 7.02 1.17 9.32.78 1.12 1.7 2.38 2.9 2.33 1.17-.05 1.6-.75 3.02-.75 1.4 0 1.8.75 3.03.73 1.25-.02 2.05-1.14 2.82-2.27.9-1.3 1.27-2.56 1.28-2.63-.03-.01-2.45-.94-2.47-3.72zM14.1 5.8c.64-.78 1.07-1.86.95-2.94-.92.04-2.04.62-2.7 1.4-.6.69-1.12 1.8-.98 2.85 1.03.08 2.08-.52 2.73-1.31z"/></svg> App Store</a><a class="btn ghost" href="/games/the-flipside/"><span data-l="en">Game details</span><span data-l="tr">Oyun detayları</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+    <div class="legal-links"><a href="/games/the-flipside/privacy/"><span data-l="en">Privacy Policy</span><span data-l="tr">Gizlilik Politikası</span></a><a href="/games/the-flipside/terms/"><span data-l="en">Terms of Use</span><span data-l="tr">Kullanım Şartları</span></a><a href="/games/the-flipside/support/"><span data-l="en">Support</span><span data-l="tr">Destek</span></a></div>
+  </div>
+  <div class="panel-visual"><div class="phones"><div class="phone"><img data-l="en" src="/assets/img/the-flipside/shot-en-4.webp" alt="The Flipside screenshot 4" loading="lazy" decoding="async"><img data-l="tr" src="/assets/img/the-flipside/shot-tr-4.webp" alt="The Flipside screenshot 4 (TR)" loading="lazy" decoding="async"></div><div class="phone"><img data-l="en" src="/assets/img/the-flipside/shot-en-2.webp" alt="The Flipside screenshot 2" loading="lazy" decoding="async"><img data-l="tr" src="/assets/img/the-flipside/shot-tr-2.webp" alt="The Flipside screenshot 2 (TR)" loading="lazy" decoding="async"></div><div class="phone"><img data-l="en" src="/assets/img/the-flipside/shot-en-5.webp" alt="The Flipside screenshot 5" loading="lazy" decoding="async"><img data-l="tr" src="/assets/img/the-flipside/shot-tr-5.webp" alt="The Flipside screenshot 5 (TR)" loading="lazy" decoding="async"></div></div></div>
+</article>
+<article class="panel rv flip" style="--a1:#9b4dff;--a2:#ff8a1f" id="merge-survivors">
+  <div class="panel-copy">
+    <span class="badge dev"><i></i><span data-l="en">In development</span><span data-l="tr">Geliştiriliyor</span></span>
+    <h3>Merge Survivors: Dark Dungeon</h3>
+    <p class="tagline"><span data-l="en">Enter weak. Merge loot. Kill the Hollow King.</span><span data-l="tr">Zayıf gir. Ganimeti birleştir. Hollow King'i öldür.</span></p>
+    <p class="summary"><span data-l="en">A dark-fantasy survivors-like for mobile. Move, auto-attack the horde, merge duplicate gear into higher rarities and descend into cursed dungeons, then rebuild your dying sanctuary between runs.</span><span data-l="tr">Mobil için karanlık fantezi bir survivors oyunu. Hareket et, sürüye otomatik saldır, aynı eşyaları daha yüksek nadirliğe birleştir, lanetli zindanlara in; koşular arasında ölmekte olan sığınağını yeniden inşa et.</span></p>
+    <div class="chips"><span class="chip"><span data-l="en">Survivors-like</span><span data-l="tr">Survivors tarzı</span></span><span class="chip"><span data-l="en">Loot & merge</span><span data-l="tr">Ganimet ve birleştirme</span></span><span class="chip"><span data-l="en">Roguelite</span><span data-l="tr">Roguelite</span></span><span class="chip"><span data-l="en">Portrait</span><span data-l="tr">Dikey</span></span></div>
+    <div class="actions"><span class="btn primary disabled"><span data-l="en">In development</span><span data-l="tr">Geliştiriliyor</span></span><a class="btn ghost" href="/games/merge-survivors/"><span data-l="en">Game details</span><span data-l="tr">Oyun detayları</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+    <div class="legal-links"><a href="/games/merge-survivors/privacy/"><span data-l="en">Privacy Policy</span><span data-l="tr">Gizlilik Politikası</span></a><a href="/games/merge-survivors/terms/"><span data-l="en">Terms of Use</span><span data-l="tr">Kullanım Şartları</span></a><a href="/games/merge-survivors/support/"><span data-l="en">Support</span><span data-l="tr">Destek</span></a></div>
+  </div>
+  <div class="panel-visual"><div class="art"><img src="/assets/img/merge-survivors/icon.webp" alt="Merge Survivors: Dark Dungeon artwork" loading="lazy" width="768" height="768"></div></div>
+</article>
+<article class="panel rv" style="--a1:#8b5cf6;--a2:#fbbf24" id="tiny-mage">
+  <div class="panel-copy">
+    <span class="badge soon"><i></i><span data-l="en">Coming to the App Store</span><span data-l="tr">App Store'a geliyor</span></span>
+    <h3>Tiny Mage: Endless Run</h3>
+    <p class="tagline"><span data-l="en">Cast spells. Smash monsters.</span><span data-l="tr">Büyü yap, canavarları yen.</span></p>
+    <p class="summary"><span data-l="en">Race down a magical three-lane road as the tiniest apprentice at the Moonlit Academy. Dodge, cast spells, collect gold and relight the shattered Moon Lantern. No ads, no purchases, no account.</span><span data-l="tr">Ay Işığı Akademisi'nin en minik çırağı olarak üç şeritli büyülü yolda yarış. Kaç, büyü at, altın topla ve paramparça olan Ay Feneri'ni yeniden yak. Reklam yok, satın alma yok, hesap yok.</span></p>
+    <div class="chips"><span class="chip"><span data-l="en">Endless runner</span><span data-l="tr">Sonsuz koşu</span></span><span class="chip"><span data-l="en">Low-poly 3D</span><span data-l="tr">Düşük poligonlu 3D</span></span><span class="chip"><span data-l="en">Offline</span><span data-l="tr">Çevrimdışı</span></span><span class="chip"><span data-l="en">EN · TR</span><span data-l="tr">EN · TR</span></span></div>
+    <div class="actions"><span class="btn primary disabled"><span data-l="en">Coming to the App Store</span><span data-l="tr">App Store'a geliyor</span></span><a class="btn ghost" href="/games/tiny-mage/"><span data-l="en">Game details</span><span data-l="tr">Oyun detayları</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+    <div class="legal-links"><a href="/games/tiny-mage/privacy/"><span data-l="en">Privacy Policy</span><span data-l="tr">Gizlilik Politikası</span></a><a href="/games/tiny-mage/terms/"><span data-l="en">Terms of Use</span><span data-l="tr">Kullanım Şartları</span></a><a href="/games/tiny-mage/support/"><span data-l="en">Support</span><span data-l="tr">Destek</span></a></div>
+  </div>
+  <div class="panel-visual"><div class="phones"><div class="phone"><img data-l="en" src="/assets/img/tiny-mage/shot-en-3.webp" alt="Tiny Mage: Endless Run screenshot 3" loading="lazy" decoding="async"><img data-l="tr" src="/assets/img/tiny-mage/shot-tr-3.webp" alt="Tiny Mage: Endless Run screenshot 3 (TR)" loading="lazy" decoding="async"></div><div class="phone"><img data-l="en" src="/assets/img/tiny-mage/shot-en-1.webp" alt="Tiny Mage: Endless Run screenshot 1" loading="lazy" decoding="async"><img data-l="tr" src="/assets/img/tiny-mage/shot-tr-1.webp" alt="Tiny Mage: Endless Run screenshot 1 (TR)" loading="lazy" decoding="async"></div><div class="phone"><img data-l="en" src="/assets/img/tiny-mage/shot-en-5.webp" alt="Tiny Mage: Endless Run screenshot 5" loading="lazy" decoding="async"><img data-l="tr" src="/assets/img/tiny-mage/shot-tr-5.webp" alt="Tiny Mage: Endless Run screenshot 5 (TR)" loading="lazy" decoding="async"></div></div></div>
+</article>
+</div></section>
+<section class="section" style="padding-top:20px"><div class="container">
+  <div class="section-head rv"><span class="eyebrow"><span data-l="en">How I build</span><span data-l="tr">Nasıl geliştiriyorum</span></span><h2><span data-l="en">Small games, no tricks.</span><span data-l="tr">Küçük oyunlar, numarasız.</span></h2></div>
+  <div class="cards">
+    <div class="card rv"><div class="ico">🎮</div><h4><span data-l="en">Player first</span><span data-l="tr">Oyuncu önce</span></h4><p><span data-l="en">Short sessions, fast restarts and no forced accounts. Ads, where they exist, are optional.</span><span data-l="tr">Kısa oturumlar, hızlı yeniden denemeler ve zorunlu hesap yok. Reklamlar varsa isteğe bağlıdır.</span></p></div>
+    <div class="card rv"><div class="ico">🔒</div><h4><span data-l="en">Clear about data</span><span data-l="tr">Veride net</span></h4><p><span data-l="en">Every game has a plain-language privacy policy that matches what the game really does.</span><span data-l="tr">Her oyunun, oyunun gerçekte yaptığıyla uyumlu, sade dilde bir gizlilik politikası var.</span></p></div>
+    <div class="card rv"><div class="ico">🌍</div><h4><span data-l="en">English &amp; Türkçe</span><span data-l="tr">English ve Türkçe</span></h4><p><span data-l="en">Games and every page on this site are available in both languages.</span><span data-l="tr">Oyunlar ve bu sitedeki her sayfa iki dilde de mevcut.</span></p></div>
+  </div>
+</div></section>
+<section class="section" style="padding-top:20px"><div class="container">
+  <div class="section-head rv"><span class="eyebrow"><span data-l="en">Legal &amp; support</span><span data-l="tr">Yasal ve destek</span></span><h2><span data-l="en">Everything in one place.</span><span data-l="tr">Her şey tek yerde.</span></h2><p><span data-l="en">Copy the exact URL you need for App Store Connect or Google Play Console from the legal hub.</span><span data-l="tr">App Store Connect veya Google Play Console için ihtiyacın olan linki yasal merkezden kopyala.</span></p></div>
+  <div class="matrix rv"><div class="matrix-row head"><span><span data-l="en">Game</span><span data-l="tr">Oyun</span></span><span><span data-l="en">Privacy Policy</span><span data-l="tr">Gizlilik Politikası</span></span><span><span data-l="en">Terms of Use</span><span data-l="tr">Kullanım Şartları</span></span><span><span data-l="en">Support</span><span data-l="tr">Destek</span></span></div><div class="matrix-row"><div class="g"><img src="/assets/img/the-flipside/icon.webp" alt="" width="38" height="38"><span>The Flipside</span></div><a class="l" href="/games/the-flipside/privacy/"><span data-l="en">Privacy</span><span data-l="tr">Gizlilik</span></a><a class="l" href="/games/the-flipside/terms/"><span data-l="en">Terms</span><span data-l="tr">Şartlar</span></a><a class="l" href="/games/the-flipside/support/"><span data-l="en">Support</span><span data-l="tr">Destek</span></a></div><div class="matrix-row"><div class="g"><img src="/assets/img/merge-survivors/icon.webp" alt="" width="38" height="38"><span>Merge Survivors: Dark Dungeon</span></div><a class="l" href="/games/merge-survivors/privacy/"><span data-l="en">Privacy</span><span data-l="tr">Gizlilik</span></a><a class="l" href="/games/merge-survivors/terms/"><span data-l="en">Terms</span><span data-l="tr">Şartlar</span></a><a class="l" href="/games/merge-survivors/support/"><span data-l="en">Support</span><span data-l="tr">Destek</span></a></div><div class="matrix-row"><div class="g"><img src="/assets/img/tiny-mage/icon.webp" alt="" width="38" height="38"><span>Tiny Mage: Endless Run</span></div><a class="l" href="/games/tiny-mage/privacy/"><span data-l="en">Privacy</span><span data-l="tr">Gizlilik</span></a><a class="l" href="/games/tiny-mage/terms/"><span data-l="en">Terms</span><span data-l="tr">Şartlar</span></a><a class="l" href="/games/tiny-mage/support/"><span data-l="en">Support</span><span data-l="tr">Destek</span></a></div></div>
+  <p class="rv" style="margin-top:18px"><a class="btn ghost sm" href="/legal/"><span data-l="en">Open the legal hub</span><span data-l="tr">Yasal merkezi aç</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+</div></section>
+<section class="section" id="about" style="padding-top:20px"><div class="container">
+  <div class="about rv">
+    <img class="avatar" src="https://github.com/serhatBilal.png?size=400" alt="Serhat Bilal" width="280" height="280" loading="lazy">
+    <div>
+      <span class="eyebrow"><span data-l="en">About</span><span data-l="tr">Hakkında</span></span>
+      <h2>Serhat Bilal</h2>
+      <p><span data-l="en">Software developer from Bursa, Türkiye, building games and apps across mobile, back-end and tools. This studio is the public home of my games — if something is broken, unclear or just cool, write to me.</span><span data-l="tr">Bursa'dan yazılım geliştirici; mobil, back-end ve araçlar alanında oyun ve uygulamalar yapıyorum. Bu stüdyo, oyunlarımın herkese açık evi — bir şey bozuksa, belirsizse ya da sadece harikaysa bana yaz.</span></p>
+      <div class="actions"><a class="btn primary" href="mailto:serhat.bilal92@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 8 8 6 8-6"/></svg> <span data-l="en">Get in touch</span><span data-l="tr">İletişime geç</span></a><a class="btn ghost" href="https://github.com/serhatBilal" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.7 5.4-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg> GitHub</a></div>
+    </div>
+  </div>
+</div></section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
       <div>
-        <a href="apps.html" data-page-link="apps" data-i18n="navApps">Apps</a>
-        <a href="https://github.com/serhatBilal" target="_blank" rel="noopener">GitHub</a>
+        <a class="brand" href="/"><span class="brand-mark">SB</span><span>Serhat Bilal Studio</span></a>
+        <p class="blurb"><span data-l="en">Independent mobile games made with Godot. Every game has its own privacy policy, terms and support page.</span><span data-l="tr">Godot ile yapılan bağımsız mobil oyunlar. Her oyunun kendi gizlilik politikası, şartları ve destek sayfası var.</span></p>
       </div>
-    </footer>
-
-    <script src="assets/app-data.js"></script>
-    <script src="assets/main.js"></script>
-  </body>
+      <div><h5><span data-l="en">Games</span><span data-l="tr">Oyunlar</span></h5><ul><li><a href="/games/the-flipside/">The Flipside</a></li><li><a href="/games/merge-survivors/">Merge Survivors: Dark Dungeon</a></li><li><a href="/games/tiny-mage/">Tiny Mage: Endless Run</a></li></ul></div>
+      <div><h5><span data-l="en">Privacy</span><span data-l="tr">Gizlilik</span></h5><ul><li><a href="/games/the-flipside/privacy/">The Flipside</a></li><li><a href="/games/merge-survivors/privacy/">Merge Survivors</a></li><li><a href="/games/tiny-mage/privacy/">Tiny Mage</a></li></ul></div>
+      <div><h5><span data-l="en">Terms</span><span data-l="tr">Şartlar</span></h5><ul><li><a href="/games/the-flipside/terms/">The Flipside</a></li><li><a href="/games/merge-survivors/terms/">Merge Survivors</a></li><li><a href="/games/tiny-mage/terms/">Tiny Mage</a></li></ul></div>
+      <div><h5><span data-l="en">Support</span><span data-l="tr">Destek</span></h5><ul><li><a href="/games/the-flipside/support/">The Flipside</a></li><li><a href="/games/merge-survivors/support/">Merge Survivors</a></li><li><a href="/games/tiny-mage/support/">Tiny Mage</a></li><li style="margin-top:14px"><a href="/legal/"><span data-l="en">All legal links</span><span data-l="tr">Tüm yasal linkler</span> →</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span class="year">2026</span> Serhat Bilal Studio · Bursa, Türkiye</span>
+      <span><a href="https://github.com/serhatBilal" target="_blank" rel="noopener">GitHub</a> · <a href="mailto:serhat.bilal92@gmail.com">serhat.bilal92@gmail.com</a></span>
+    </div>
+  </div>
+</footer>
+<script src="/assets/site.js" defer></script>
+</body>
 </html>

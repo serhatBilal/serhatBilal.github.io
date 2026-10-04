@@ -1,63 +1,29 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Apps and games by Serhat Bilal Studio with App Store, privacy policy and support links."
-    />
-    <title>Apps | Serhat Bilal Studio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body data-page="apps">
-    <header class="site-header">
-      <a class="brand" href="index.html" data-page-link="home" aria-label="Serhat Bilal Studio home">
-        <span class="brand-mark">SB</span>
-        <span>Serhat Bilal Studio</span>
-      </a>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="index.html" data-page-link="home" data-i18n="navHome">Home</a>
-        <a href="apps.html" data-page-link="apps" data-i18n="navApps">Apps</a>
-        <a href="index.html#creator" data-page-link="creator" data-i18n="navCreator">Creator</a>
-        <a href="https://github.com/serhatBilal" target="_blank" rel="noopener">GitHub</a>
-      </nav>
-      <div class="language-switch" aria-label="Language switcher">
-        <a href="?lang=en" data-lang-option="en">EN</a>
-        <a href="?lang=tr" data-lang-option="tr">TR</a>
-      </div>
-    </header>
-
-    <main>
-      <section class="page-hero">
-        <p class="eyebrow" data-i18n="appsEyebrow">Apps and games</p>
-        <h1 data-i18n="appsTitle">Released products, support links, and privacy pages.</h1>
-        <p data-i18n="appsText">
-          Every app has its own store link, support page, and privacy policy.
-          New releases will appear here as the portfolio grows.
-        </p>
-      </section>
-
-      <section class="section apps-section">
-        <div class="app-grid" id="appGrid"></div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <span>© <span id="year"></span> Serhat Bilal Studio</span>
-      <div>
-        <a href="index.html" data-page-link="home" data-i18n="navHome">Home</a>
-        <a href="https://github.com/serhatBilal" target="_blank" rel="noopener">GitHub</a>
-      </div>
-    </footer>
-
-    <script src="assets/app-data.js"></script>
-    <script src="assets/main.js"></script>
-  </body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Redirecting… — Serhat Bilal Studio</title>
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="2;url=/#games">
+<link rel="canonical" href="https://serhatbilal.github.io/#games">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){
+  var map={"the-flipside-run":"the-flipside","the-flipside":"the-flipside","flipside":"the-flipside","merge-survivors":"merge-survivors","merge-survivors-dark-dungeon":"merge-survivors","tiny-mage":"tiny-mage","tinymage":"tiny-mage"}, p=new URLSearchParams(location.search), app=map[(p.get('app')||'').toLowerCase()];
+  var page="apps", dest;
+  if(page==='apps'){dest='/#games'}
+  else{dest='/games/'+(app||'the-flipside')+'/'+page+'/'}
+  var l=p.get('lang'); if(l==='en'||l==='tr'){dest+=(dest.indexOf('?')<0?'?':'&')+'lang='+l}
+  location.replace(dest);
+})();
+</script>
+</head>
+<body>
+<main class="container center-page"><div class="redirect-card">
+<h1>This page has moved</h1>
+<p>Policies, terms and support now have their own page for every game.</p>
+<a class="btn primary" href="/#games">Games</a>
+</div></main>
+</body>
 </html>

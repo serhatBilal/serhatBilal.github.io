@@ -1,54 +1,29 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Privacy policy for Serhat Bilal Studio mobile apps and games." />
-    <title>Privacy Policy | Serhat Bilal Studio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body data-page="privacy">
-    <header class="site-header">
-      <a class="brand" href="index.html" data-page-link="home" aria-label="Serhat Bilal Studio home">
-        <span class="brand-mark">SB</span>
-        <span>Serhat Bilal Studio</span>
-      </a>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="index.html" data-page-link="home" data-i18n="navHome">Home</a>
-        <a href="apps.html" data-page-link="apps" data-i18n="navApps">Apps</a>
-        <a href="support.html?app=the-flipside-run" data-page-link="support" data-i18n="navSupport">Support</a>
-      </nav>
-      <div class="language-switch" aria-label="Language switcher">
-        <a href="?lang=en" data-lang-option="en">EN</a>
-        <a href="?lang=tr" data-lang-option="tr">TR</a>
-      </div>
-    </header>
-
-    <main class="policy-shell">
-      <section class="policy-hero">
-        <p class="eyebrow" data-i18n="privacyEyebrow">Privacy Policy</p>
-        <h1 id="policyTitle">Privacy Policy</h1>
-        <p id="policyIntro"></p>
-      </section>
-
-      <article class="policy-content" id="policyContent"></article>
-    </main>
-
-    <footer class="site-footer">
-      <span>© <span id="year"></span> Serhat Bilal Studio</span>
-      <div>
-        <a href="apps.html" data-page-link="apps" data-i18n="navApps">Apps</a>
-        <a href="support.html?app=the-flipside-run" data-page-link="support" data-i18n="navSupport">Support</a>
-      </div>
-    </footer>
-
-    <script src="assets/app-data.js"></script>
-    <script src="assets/main.js"></script>
-  </body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Redirecting… — Serhat Bilal Studio</title>
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="2;url=/games/the-flipside/privacy/">
+<link rel="canonical" href="https://serhatbilal.github.io/games/the-flipside/privacy/">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function(){
+  var map={"the-flipside-run":"the-flipside","the-flipside":"the-flipside","flipside":"the-flipside","merge-survivors":"merge-survivors","merge-survivors-dark-dungeon":"merge-survivors","tiny-mage":"tiny-mage","tinymage":"tiny-mage"}, p=new URLSearchParams(location.search), app=map[(p.get('app')||'').toLowerCase()];
+  var page="privacy", dest;
+  if(page==='apps'){dest='/#games'}
+  else{dest='/games/'+(app||'the-flipside')+'/'+page+'/'}
+  var l=p.get('lang'); if(l==='en'||l==='tr'){dest+=(dest.indexOf('?')<0?'?':'&')+'lang='+l}
+  location.replace(dest);
+})();
+</script>
+</head>
+<body>
+<main class="container center-page"><div class="redirect-card">
+<h1>This page has moved</h1>
+<p>Policies, terms and support now have their own page for every game.</p>
+<a class="btn ghost sm" href="/games/the-flipside/privacy/">The Flipside</a><a class="btn ghost sm" href="/games/merge-survivors/privacy/">Merge Survivors: Dark Dungeon</a><a class="btn ghost sm" href="/games/tiny-mage/privacy/">Tiny Mage: Endless Run</a>
+</div></main>
+</body>
 </html>
